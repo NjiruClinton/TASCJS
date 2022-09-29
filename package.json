@@ -1,0 +1,24 @@
+{
+  "name": "complexities",
+  "version": "1.0.0",
+  "description": "space and time complexities",
+  "main": "spacecomplexity.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "complexities"
+  ],
+  "author": "Clinton Njiru",
+  "license": "ISC",
+  "dependencies": {
+    "escomplex": "^2.0.0-alpha",
+    "esprima": "^4.0.1",
+    "typhonjs-escomplex": "^0.1.0",
+    "typhonjs-escomplex-project": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "typhonjs-escomplex-module": "^0.1.0"
+  }
+}
