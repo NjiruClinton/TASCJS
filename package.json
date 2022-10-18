@@ -1,8 +1,12 @@
 {
-  "name": "complexities",
+  "name": "timeandspacecomplexity",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com//NjiruClinton/TASCJS.git"
+  },
   "version": "1.0.0",
   "description": "space and time complexities",
-  "main": "spacecomplexity.js",
+  "main": "timeandspacecomplexity.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

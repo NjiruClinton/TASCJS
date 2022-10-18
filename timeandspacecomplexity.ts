@@ -1,5 +1,4 @@
-
-function timeAndSpaceComplexities (file: string) {
+function timeAndSpaceComplexity (file: string) {
 var fs = require('fs');
 var esprima = require('esprima');
 var escomplexModule = require('typhonjs-escomplex-module');
@@ -13,4 +12,4 @@ var report = escomplex.analyzeModule(readfile, escomplexModule, escomplexProject
 console.log(report);
 }
 
-timeAndSpaceComplexities('test.js');
+timeAndSpaceComplexity('test.js');
